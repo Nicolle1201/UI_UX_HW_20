@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta Information -->
+    <meta name="author" content="Er. Tanzeel O. Ansari">
+    <meta name="description" content="Create Responsive Animated Website using HTML5, CSS3, Bootstrap & JavaScript">
+
+	<!-- Webpage Title -->
+    <title>HW 20</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Ubuntu:400,600|Dancing+Script:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/animate.min.css">
+    <script type="text/javascript" src="scripts/wow.min.js"></script>
+    <link href="layout.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">new WOW().init();</script>
+	
+</head>
+
+
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--Additional Menu Links and Social Icons-->
+        <div class="wrapper bg-white border" id="home">
+            <div class="container">
+
+                <nav class="navbar navbar-expand-md navbar-light bg-white p-0">
+                    <div class="collapse navbar-collapse justify-content-between" id="secondaryNavbar">
+                        <!--Links (left side)-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-2">
+                                <a href="#" class="nav-link"></a>
+                                <p class="m-0"><small>Phase 1:User Research</small></p>
+                            </li>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link"></a>
+                                    <p class="m-0"><small>Phase 2:Definition & Synthesis</small></p>
+                                </li>    
+
+                                <ul class="navbar-nav">
+                                    <li class="nav-item px-2">
+                                        <a href="#" class="nav-link"></a>
+                                        <p class="m-0"><small>Phase 3: Ideation</small></p>
+                                    </li>
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item px-2">
+                                            <a href="#" class="nav-link"></a>
+                                            <p class="m-0"><small>Phase 4: Prototyping (low-hi)</small></p>
+                                        </li>
+                                     </ul>
+
+                                     <ul class="navbar-nav">
+                                        <li class="nav-item px-2">
+                                            <a href="#" class="nav-link"></a>
+                                            <p class="m-0"><small>Phase 5: User Testing + Outcomes</small></p>
+                                        </li>
+                                     </ul>
+                                    
+                                     <ul class="navbar-nav">
+                                        <li class="nav-item px-2">
+                                            <a href="#" class="nav-link"></a>
+                                            <p class="m-0"><small>Phase 6: Conclusion + Future Opportunities</small></p>
+                                        </li>
+                                     </ul>
+
+                        <!--Social Icons (Right Side)-->
+                        <ul class="d-flex social-icon">
+                            <li><a href="#" class="faicon-facebook rounded-circle">
+                                <i class="fab fa-facebook"></i>
+                            </a></li>
+
+                            <ul class="d-flex social-icon">
+                                <li><a href="#" class="faicon-twitter rounded-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+
+                            <ul class="d-flex social-icon">
+                                <li><a href="#" class="faicon-instagram rounded-circle">
+                                     <i class="fab fa-instagram"></i>
+                                 </a></li>
+
+                            <ul class="d-flex social-icon">
+                                <li><a href="#" class="faicon-linkedin rounded-circle">
+                                        <i class="fab fa-linkedin"></i>
+                                 </a></li>
+
+                                 <ul class="d-flex social-icon">
+                                    <li><a href="#" class="faicon-pinterest rounded-circle">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a></li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+<!--Header for text/logo-->
+<div class="wrapper py-3 px-5 text-secondary bg-white" id="header">
+    <header class="d-flex: flex-row justify-content-between">
+        <h1 class="d-flex align-items-center">
+            <a href="index.html" class="t3">
+                Case Study.<span class="text-sucuess">project</span>
+            </a>
+        </h1>
+
+        <h2 clasa="align-self-end"><small>Flix & Feast</small></h2>
+    </header>
+</div>
+
+<!--Navigation Bar(Menu BAR)-->
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-0" id="mainNavbar">
+
+            <!--Navbar logo-->
+            <a href="#home" class="navbar-brand py-2 px-3">
+                <img src="Black BG 3-01.png" style="height: 32px;">
+            </a>
+
+            <!--Collapse Button to replace links belos 992px wide screen-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-targer="#mainNavbarContent">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Navigation Links-->
+                <div class="collapse navbar-collapse justify-content-around" id="mainNavbarContent">
+
+                    <!--Align on Left-->
+     <ul class="navbar-nav">
+         <li class="nav-item"
+            <a href="#home" class="nav-link px-3">User Research | </a>
+        </li>
+
+        <li class="nav-item"
+            <a href="#services" class="nav-link px-3">Definition & Synthesis |</a>
+         </li>
+
+         <li class="nav-item"
+             <a href="#text-over-image" class="nav-link px-3">Ideation |</a>
+        </li>
+
+        <li class="nav-item"
+             <a href="#text-overlap-image" class="nav-link px-3">Prototyping (low-hi) |</a>
+         </li>
+
+         <li class="nav-item"
+         <a href="#testimonials-carousel" class="nav-link px-3">User Testing + Outcomes |</a>
+     </li>
+
+        <li class="nav-item"
+            <a href="#news-blog" class="nav-link px-3">Conclusion + Future Opportunities |</a>
+        </li>
+
+
+<!--Link with Dropdown-->
+<li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle px-3" id="navbarDropdpwn" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+    <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdpwn">
+
+            <a href="#" class="dropdown-item">Page- 1</a>
+            <a href="#" class="dropdown-item">Page-2</a>
+            <div class="drowpdown-divider"></div>
+            <a href="#" c;ass="dropdown-item">Something Else</a>
+    </div>
+</li>
+
+    <li class="nav-item">
+        <a href="#contact" class="nav-link px-3">CONTACT</a>    </li>
+
+                    </ul>
+
+                    <!--Align on Right-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link disabled px-3">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            
+        </nav>
+    </div> 
+    
+    <!--Cover Image-->
+    <div class="wrapper overlay" id="cover-image">
+        <div class="hor-cen ml-5 pl-5" id="pageintro">
+            <article class="ml-5 pl-5">
+                <h3 class="heading">Flix & Feast </h3>
+                <p class="text-secondary">Case Study</p>
+                <footer class="mt-5 pt-5">
+                    <ul class="m-0 p-0">
+                        <li class="d-inline-block mr-4">
+                            <a href="#" class="btn btn-danger btn-lg">Get Started</a>
+                        </li>
+
+                        <li class="d-inline-block">
+                            <a href="https://docs.google.com/spreadsheets/d/1SLVptLdHcLcxp1TJvRaLvXml1NbVKCPcmXMckBYqB1s/edit?usp=sharing" class="btn btn-outline-secondary text-white btn-lg">Know More</a>
+                        </li>
+
+
+                    </ul>
+                </footer>
+            </article>
+
+        </div>
+    </div>
+
+    <!--Body Container-->
+
+    <div class="container">
+        <!--Adding the border-->
+            <div class="content-wrapper border border-light rounded">
+
+                <!--Services-->
+                <div class="wrapper bg-white text-secondary p-5" id="services">
+                    <div class="p-5">
+
+
+                        <!--Heading-->
+                        <div class="text-center pb-5">
+                            <h2 class="heading">Problem</h2>
+                            <p></p>
+                        </div>
+
+                        <ul class="row">
+                            <li class="col-md-4 pt-5 pr-5">
+                                <article>
+                                    <i class="fas fa-tools"></i>
+                                    <h6 class="heading">User</h6>
+                                    <p>Ashley needs to let an app to help her decide what movie and food to do for a date night because of fear of choosing a combination uncomfortable 
+                                        .[&hellip;] </p>
+                                        <footer>
+                                            <a href="https://docs.google.com/spreadsheets/d/1J2hb08yfUoaEK7orklgwXgfWSGnrAf6ptSzTu6LtS1o/edit?usp=sharing" class="btn btn-danger">Read More</a>
+                                        </footer>
+                                </article>
+                            </li>
+                        <!--Second Icon-->
+                            <li class="col-md-4 pt-5 pr-5">
+                                <article>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <h6 class="heading">Problem</h6>
+                                    <p>We elieve that Flix & Feast mobile app can help dinner and a movie date night to be both collaborative and enjoyable and that we mught be able to help if we provide a resouce for date planning.
+                                         .[&hellip;] </p>
+                                        <footer>
+                                            <a href="https://docs.google.com/document/d/1YLzJm343eC5VOVv5l5odbwYGtzkU7EANoW32WyP1Nts/edit?usp=sharing" class="btn btn-danger">Read More</a>
+                                        </footer>
+                                </article>
+                            </li>
+
+                        <!--Third Icon-->
+                            <li class="col-md-4 pt-5 pr-5">
+                                <article>
+                                    <i class="fas fa-folder-open"></i>
+                                    <h6 class="heading">Planning</h6>
+                                    <p> We discovered frustrations upon planning a dinner and movie are derived from not coming into agreement on a mutual decision or wasting too much time making a decision.
+                                       </p>
+                                        <footer>
+                                            <a href="https://docs.google.com/document/d/1kW5yzZi6RNfqnnHhbUKAFZXjYPqD38QsCy5QnPx1sZs/edit?usp=sharing" class="btn btn-danger">Read More</a>
+                                        </footer>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!--Services end-->
+
+                <!--Text Block Over image-->
+                <div class="wrapper p-5" id="text-over-image">
+                    <div class="d-flex flex-row-reverse p-5">
+                        <div class="col-md-6 p-5 overlay red">
+                            <section>
+                                <h2 class="heading">Results</h2>
+
+                                
+                                <p>When it came to protoyping we decided to complete App addresses a problem: wasting valuable quality time on picking movie and food
+                                    App gives the user autonomy to decide for the pair based on both user’s input....</p>
+                    
+                                      <p>Dates can quickly be planned, food can be easily paid for and delivered.
+                                         The movie can be queued and ready to play as the food arrives.</p>
+                                <p class="mb-5">We conducted five user tests along with and interviews focusing primarily on couples. We noticed people were having difficulty with the flow of the app meaning they didn't know where to plan a date. </p>
+                            <footer><a href="https://xd.adobe.com/view/8096573b-6004-4c6e-9d17-102a2fcd621a-d5c5/?fullscreen&hints=off" class="btn btn-danger">See Results &raquo;</a></footer>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!--Text Block Over image ends-->
+
+                <!--Text Block Overlapping image-->
+                    <div class="wrapper bg-white text-secondary p-5" id="text-overlap-image">
+                        <div class="row p-5 align-items-center justify-content-center">
+
+                         <!---First Column Image-->
+                    <div class="col-md-7" id="first-column">
+                        <a href="https://docs.google.com/presentation/d/1dk9aAGuisYrOiqGe3Hgw4GkI-4BR2Z5DnlZjKyy5h28/edit?usp=sharing"><img src="ff pp.jpg"></a>
+
+                    </div>   
+
+                    <!--Second Column(text)-->
+                    <div class="col-md-5 p-5" id="second-column">
+                        <p class="font-xs">"The perfect date night."</p>
+                        <h2 class="heading mb-3">What did we learn?</h2>
+                        <p>We did and learned so much in three weeks. We hope to make stay in date night alot easier. We hope in the near future we could bring the app to life with hi-fi protoyping.</p>
+                            [&hellip;]</p>
+                            <footer><a href="https://docs.google.com/spreadsheets/d/1SLVptLdHcLcxp1TJvRaLvXml1NbVKCPcmXMckBYqB1s/edit?usp=sharing">Read More &raquo;</a></footer>
+                    </div>
+                </div>
+
+                <!--Text Block Overlapping Ends-->
+
+                <!--Testimonials Carousel-->
+                <div class="carousel slide wrapper overlay red p-5" data-ride="carousel"
+                id="testimonials-carousel">
+
+                <!--Title-->
+                <div class="text-center pt-5">
+                    <h2 class="heading">Summary</h2>
+                    <p>Overall Process</p>
+                </div>
+
+                <!--indicators-->
+                <ul class="carousel-indicators" data-keyboard="true">
+                    <li data-target="testimonials-carousel" data-slide-to="0"class="active"></li>
+                    <li data-target="testimonials-carousel" data-slide-to="1"></li>
+                    <li data-target="testimonials-carousel" data-slide-to="2"></li>
+                </ul>
+
+                <!--Slideshow-->
+                <div class="carousel-inner pb-5">
+                    <!--Fist Slide (Active)-->
+                    <div class="carousel-item active">
+                        <div class="row testimonials justify-content-center">
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="homepic.jpg" style="
+                                height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">Team consisted of three members: Fawn Thoi, Mark Malcom and Nicolle Flores.
+                                         My responsibilities were the following: fill documents with research information, gather photographic 
+                                         evidence of team's progress, took park on creating the paper wireframes, took all responsibility in 
+                                         illustrating an story board .
+                                    </blockquote>
+                                    <h5 class="heading">My</h5>
+                                    <p class="font-xs">Role & Responsibilities</p>
+                            </article>
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="phase 1 +2.png" style="
+                                    height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">"We might do this by developing the app in a way that aggregates user and partner preferences for movies and dinner and makes a mutually beneficial choice for all parties, based on both partners' preferences.
+                                        Doing this will allow our product to increase viewership for streaming services and increase delivery order completion for food providers."</blockquote>
+                                    </blockquote>
+                                    <h5 class="heading">Project Overview</h5>
+                                    <p class="font-xs">Flix & Feast</p>
+                            </article>
+
+                         
+
+                            
+                        </div>
+                    </div>
+
+                    <!--Second Slide-->
+
+                    <div class="carousel-item active">
+                        <div class="row testimonials justify-content-center">
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="Tello.png" style="
+                                    height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">"Miro & Adobe XD"
+        
+                                    </blockquote>
+                                    <h5 class="heading">Tools Used</h5>
+                                    <p class="font-xs">Flix & Feast</p>
+                            </article>
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="case.study.png" style="
+                                    height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">
+                                         "Our organization, Flix & Feast, is developing a date night concierge to help busy couples to solve the problem of frustratingly wasting quality time picking movie and food options for date night. "
+                                    </blockquote>
+                                    <h5 class="heading">Executive Summary</h5>
+                                    <p class="font-xs">Flix & Feast</p>
+                            </article>
+
+                         
+         <!--Third Slide-->
+                    <div class="carousel-item ">
+                        <div class="row testimonials justify-content-center">
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="Couple.jpg" style="
+                                    height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">"It was an amazing experience, everything felt new ready for the next one"
+                                    </blockquote>
+                                    <h5 class="heading">Personal Experience</h5>
+                                    <p class="font-xs">Flix & Feast</p>
+                            </article>
+
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="" style="
+                                    height:150px;" class="rounded-circle">
+                                    <blockquote class="my-3">"We conducted three user tests along with surveys and interviews 
+                                        with the members of the SOAK organization. All where pretty succesful, problem they all 
+                                        faced was that they could not access the resource page really quick. After all that advise
+                                         we started editing. Until it became the vibrancy we thought off."" <br>simple and easy to distinguish"
+                                    </blockquote>
+                                    <h5 class="heading">SOAK</h5>
+                                    <p class="font-xs">Phase 5: User Testing + Outcomes</p>
+                            </article>
+
+                         
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Left and Right control buttons-->
+                <a href="#testimonials-carousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#testimonials-carousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>
+
+    </div>
+
+</div>
+        
+            <!--Testimonial Carousel Ends-->
+
+ <!--News and Updates-->
+ <div class="wrapper p-5 bg-light text-secondart" id="news-blog">
+
+    <div class="p-5">
+        <div class="text-center">
+            <h2 class="heading">Highlights</h2>
+            <p>Progress being made</p>
+        </div>
+
+        <!--Content-->
+        <div class="row blog">
+            <div class="col=md-7">
+                <article class="pt-5">
+                    <figure>
+                        <a href="#" class="img-hover"><img src="phase 1 +2.png"></a>
+                    </figure>
+                    <div class="textwrap">
+                        <h5>Interview Plan</h5>
+                        <ul class="meta m-0 p-0">
+                            <li>
+                                <i class="fa fa-user"> <a href="">All members</a> </i>
+                            </li>
+                            <li>
+                                <i class="fa fa-tag"> <a href="#">Google Docs</a> </i>
+                            </li>
+                            <li>
+                                <i class="fa fa-calendar"> <a href="#">Interview Plan</a> </i>
+                            </li>
+                        </ul>
+
+                       
+                    </div>
+                </article>
+
+            </div>
+
+                <div class="col-md-5 row hor-cen">
+
+                    <article class="col-md-6 pt-5">
+                        <figure>
+                            <a href="#" class="img-hover"><img src="flix&feast.png"></a>
+                        </figure>
+                        <div class="textwrap">
+                            <h5> Flix & Feast</h5>
+                            <ul class="meta m-0 p-0">
+                                <li>
+                                    <i class="fa fa-user"> <a href="#"> Fawn Thoi Mark Malcom, Nicolle Flores</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-tag"> <a href="#">Adobe XD</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar"> <a href="#">Final Protoype</a> </i>
+                                </li>
+                            </ul>
+    
+                           
+                        </div>
+                    </article>
+
+                    
+                    <article class="col-md-6 pt-5">
+                        <figure>
+                            <a href="#" class="img-hover"><img src="storyboard.png"></a>
+                        </figure>
+                        <div class="textwrap">
+                            <h5>Electronics</h5>
+                            <ul class="meta m-0 p-0">
+                                <li>
+                                    <i class="fa fa-user"> <a href="#">Nicolle Flores, Mark Malcomn, Fawn Thoise</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-tag"> <a href="#">Adobe Illustrator</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar"> <a href="#">Story Board</a> </i>
+                                </li>
+                            </ul>
+    
+                           
+                        </div>
+                    </article>
+
+
+                    <article class="col-md-6 pt-5">
+                        <figure>
+                            <a href="#" class="#"><img src="Screen Shot 2021-07-22 at 12.32.19 PM.png"></a>
+                        </figure>
+                        <div class="textwrap">
+                            <h5>Problem Statement</h5>
+                            <ul class="meta m-0 p-0">
+                                <li>
+                                    <i class="fa fa-user"> <a href="#"></a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-tag"> <a href="#">Miro</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar"> <a href="#">Reunion</a> </i>
+                                </li>
+                            </ul>
+    
+                           
+                        </div>
+                    </article>
+
+                    <article class="col-md-6 pt-5">
+                        <figure>
+                            <a href="#" class="img-hover"><img src="Tello.png"></a>
+                        </figure>
+                        <div class="textwrap">
+                            <h5>Flix & Feast</h5>
+                            <ul class="meta m-0 p-0">
+                                <li>
+                                    <i class="fa fa-user"> <a href="#"> Fawn Thoi, Mark Malcom, Nicolle Flores</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-tag"> <a href="#">Trello</a> </i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar"> <a href="#">Planning</a> </i>
+                                </li>
+                            </ul>
+    
+                           
+                        </div>
+                    </article>
+
+
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Body Footer-->
+<div class="wrapper text-grey p-5"
+ id="body-footer">
+ <footer class="row">
+  
+
+     <!--Latest from blog-->
+     <div class="col-md-4 py-5"></div>
+
+      <!--Newsletter-->
+    <div class="col-md-4 py-5"></div>
+ </footer>
+</div>
+
+
+
+
+        
+
+                
+            
+               
+                 
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <!-- Bootstrap (JQuery) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Plugin (Popper.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap (JavaScript) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- Position BackToTop button after cover image is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.backtotop.js"></script>
+
+    <!-- Make The Navigation Bar fixed on top once the header is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.navbar-fix-top.js"></script>
+
+    <!-- Position Sticky Social Bar after cover image is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.sticky-social-bar.js"></script>
+</body>
+</html>
